@@ -1,6 +1,5 @@
-# none - Учебный проект Glo Academy
+# none 
 ## Проект выполнил: Велищенко Иван
 ### Технологии:
 - html
 - css
-- javascript
