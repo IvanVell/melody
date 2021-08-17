@@ -26,7 +26,7 @@
                 <div class="menubar">
 
                     <ul class="menu">
-                        <li class="selected"><a href="#">Главная </a> </li>
+                        <li class="selected"><a href="index.html">Главная </a> </li>
                         <li><a href="films.html">Фильмы </a></li>
                         <li><a href="#">Сериалы </a></li>
                         <li><a href="rating.html">Рейтинг фильмов </a></li>
@@ -84,54 +84,56 @@
 
                 <div class="content">
 
-                    <h1>Новые фильмы</h1>
+                    <h1>Безумный Макс</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-3ZoAp6owdk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
 
-                    <div class="films_block">
-                        <a href="matrix.html"><img src="assets/img/matrix.png"></a>
-                        <a href="max.html"><img src="assets/img/max.png "></a>
-                        <a href="show.html"><img src="assets/img/inter.png"></a>
-                        <a href="cloud.html"><img src="assets/img/cloud.png"></a>
+                    <div class="info_film_page">
+                        <span class="lable">Рейтинг: </span><span class="value">7.7 / 10</span>
+                        <span class="lable">год </span><span class="value">2015</span>
+                        <span class="lable">режиссер </span><span class="value">Джордж Миллер</span>
                     </div>
 
+                    <hr>
 
-                    <h1>Новые сериалы</h1>
+                    <h2>Безумный Макс</h2>
+                    <div class="discription_film">
 
-                    <div class="films_block">
-                        <a href="#"><img src="assets/img/dead.png"></a>
-                        <a href="#"><img src="assets/img/silicon.png "></a>
-                        <a href="#"><img src="assets/img/breakingbad.png"></a>
-                        <a href="#"><img src="assets/img/xfiles.png"></a>
+                        <img src="assets/img/max.png" alt="">
+                        Преследуемый призраками беспокойного прошлого, Макс уверен, что лучший способ выжить — скитаться
+                        в одиночестве. Несмотря на это, он присоединяется к бунтарям, бегущим через всю пустыню на
+                        боевой фуре, под предводительством военачальника Фуриосы. Они пытаются сбежать из Цитадели,
+                        страдающей от тирании Несмертного Джо, у которого они забрали кое-что очень ценное. Разъярённый
+                        военачальник бросает все свои силы на погоню за мятежниками, ступая на дорогу войны — дорогу
+                        ярости.
                     </div>
 
-                    <div class="posts">
-                        <hr>
-                        <h2><a href="#">Как снимали Интерстеллар</a></h2>
-
-                        <div class="posts_content">
-                            <p>45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего
-                                времени,
-                                чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями.
-                                Фильмом
-                                изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера,
-                                студия
-                                Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.</p>
+                    <hr>
+                    <h2>Отзывы о фильме</h2>
+                    <div class="reviews">
+                        <div class="review_name">
+                            Сергей
                         </div>
-
-                        <p><a href="#">Читать</a></p>
-
-                        <hr>
-
-                        <h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
-
-                        <div class="posts_content">
-                            <p>16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии.
-                                Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс,
-                                Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.
-                            </p>
+                        <div class="review_text">
+                            Отличный фильм, 3 часа пролетели не заметно!
                         </div>
+                        <div class="review_name">
+                            Дмитрий
+                        </div>
+                        <div class="review_text">
+                            После фильма Начало, я с не терпением ждал еще работ Кристофера Нолана.
+                            <p>Безумный Макс меня впечатлил.</p>
+                        </div>
+                    </div>
 
-                        <p><a href="#">Читать</a></p>
-
+                    <div class="send">
+                        <form method="POST" action="#" id="review">
+                            <input type="text" name="review_name" placeholder="ваше имя">
+                            <textarea name="review_text"></textarea>
+                            <input type="submit" class="btn" value="отправить">
+                        </form>
                     </div>
 
 
